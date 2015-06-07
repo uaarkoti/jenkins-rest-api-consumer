@@ -5,7 +5,9 @@ A followup to [this blog post](http://udaypal.com/workflow-integration-using-res
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+1. `npm install`
+2. `bower install`
+3. Run `grunt` for building and `grunt serve` for preview.
 
 ## Setup
 1. Jenkins running on port 8081 (localhost). URL is currently hardcoded to http://localhost:8081 but can be changed [here](https://github.com/uaarkoti/jenkins-rest-api-consumer/blob/master/app/scripts/services/jenkins-api.js)
